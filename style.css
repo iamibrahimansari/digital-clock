@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/nature.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #fff;
+    color: #333;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 2rem 5rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    box-shadow: 0 0 4px 4px rgba(24, 96, 138, 0.8);
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+
+.time {
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.time div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(53, 110, 163);
+    color: #fff;
+    border-radius: 2px;
+}
+
+.time div span:first-child {
+    padding: 2rem;
+    font-size: 5rem;
+}
+
+.time div span:last-child {
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.am-pm {
+    background-color: #094b09;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: -3.5rem;
+    padding: 0.68rem 1rem;
+    font-size: 2rem;
+}
